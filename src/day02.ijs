@@ -42,4 +42,8 @@ rock_points =: 1* +/ plays e. {'X'
 paper_points =: 2* +/ plays e. {'Y'
 scissors_points =: 3* +/ plays e. {'Z'
 
+NB. Part 1
 draw_points + win_points + rock_points + paper_points + scissors_points
+
+NB. Search better ways for Part 1 with help of others' solutions
++/ 1 + 'XYZ'&i. ;plays
